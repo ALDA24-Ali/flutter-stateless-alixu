@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget { //widget principal (sin estado).
 
   @override
   Widget build(BuildContext context) { 
-    return MaterialApp( //contiene la estructura general de la app.
+    return const MaterialApp( //contiene la estructura general de la app.
       title: ' Lista Ex5', //título de la aplicación.
-      home: const MessageListPage(), //pantalla principal (MessageListPage).
+      home: MessageListPage(), //pantalla principal (MessageListPage).
     );
   }
 }

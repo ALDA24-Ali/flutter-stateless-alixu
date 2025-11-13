@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget { //Definimos el widget principal de la app.
 
   @override
   Widget build(BuildContext context) { //método que construye la interfaz de usuario.
-    return MaterialApp( //Widget principal que envuelve toda la app.
+    return const MaterialApp( //Widget principal que envuelve toda la app.
       title: ' App Ex3', //Título de la aplicación.
-      home: const ResourcePage(), //Define la pantalla principal (home), que será el widget ResourcePage.
+      home: ResourcePage(), //Define la pantalla principal (home), que será el widget ResourcePage.
     );
   }
 }
