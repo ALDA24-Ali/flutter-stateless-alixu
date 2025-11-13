@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget { //Widget principal de la app (sin estado).
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( //Contenedor principal de la app.
+    return const MaterialApp( //Contenedor principal de la app.
       title: ' App Ex4', //Título de la aplicación.
-      home: const ContactPage(), //Pantalla principal (el widget ContactPage).
+      home: ContactPage(), //Pantalla principal (el widget ContactPage).
     );
   }
 }
@@ -45,7 +45,7 @@ class ContactPage extends StatelessWidget { //Clase que representa la pantalla d
           mainAxisAlignment: MainAxisAlignment.center, //centra todo verticalmente.
           children: [
             //Imagen de perfil circular.
-            CircleAvatar(
+            const CircleAvatar(
               radius: 50, //tamaño del círculo.
               backgroundImage: NetworkImage(
                   'https://i.imgur.com/8Km9tLL.jpg'), //imagen cargada desde internet.

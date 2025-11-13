@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget { //Definimos un widget personalizado llamad
 
   @override
   Widget build(BuildContext context) { // Mètode build
-    return MaterialApp( // Widget MaterialApp
+    return const MaterialApp( // Widget MaterialApp
       title: ' App Ex2', // Títol de l'aplicació
-      home: const WelcomePage(), //Establece la pantalla principal (home), en este caso el widget WelcomePage.
+      home: WelcomePage(), //Establece la pantalla principal (home), en este caso el widget WelcomePage.
     );
   }
 }
